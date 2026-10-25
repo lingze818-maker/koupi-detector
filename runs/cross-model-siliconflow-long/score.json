@@ -1,0 +1,322 @@
+{
+  "created": "2026-10-25 Asia/Shanghai",
+  "provider": "siliconflow",
+  "prompt_spec": "prompts-long.json (6 long scenes, temp 0)",
+  "rows": [
+    {
+      "model_id": "deepseek-v3.2",
+      "label": "DeepSeek-V3.2",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "wave": "main",
+      "n_prompts": 6,
+      "n_ok": 6,
+      "n_errors": 0,
+      "chars": 4059,
+      "ticCount": 3,
+      "ticPerKilo": 0.7,
+      "byCategory": {
+        "template": 2,
+        "emotion-flat": 1,
+        "metaphor": 0
+      },
+      "simileRough": 10,
+      "avg_reply_chars": 676.5,
+      "hitDetails": [
+        {
+          "prompt_id": "L03",
+          "category": "emotion-flat",
+          "ruleId": "emo.tone-flat",
+          "text": "语气平淡",
+          "verdict": "tic"
+        },
+        {
+          "prompt_id": "L04",
+          "category": "template",
+          "ruleId": "tpl.bu-shi-er-shi",
+          "text": "不是断电的那种黑，而是像被什么东西精准地遮住了镜头，持续了整整三秒",
+          "verdict": "tic"
+        },
+        {
+          "prompt_id": "L04",
+          "category": "template",
+          "ruleId": "tpl.bu-shi-er-shi",
+          "text": "不是冰柜的那种冷，而是一种渗入骨髓的寒意",
+          "verdict": "tic"
+        }
+      ]
+    },
+    {
+      "model_id": "deepseek-r1",
+      "label": "DeepSeek-R1",
+      "model": "deepseek-ai/DeepSeek-R1",
+      "wave": "main",
+      "n_prompts": 6,
+      "n_ok": 6,
+      "n_errors": 0,
+      "chars": 6704,
+      "ticCount": 3,
+      "ticPerKilo": 0.4,
+      "byCategory": {
+        "template": 0,
+        "emotion-flat": 2,
+        "metaphor": 1
+      },
+      "simileRough": 36,
+      "avg_reply_chars": 1117.3,
+      "hitDetails": [
+        {
+          "prompt_id": "L03",
+          "category": "metaphor",
+          "ruleId": "met.weather-talk",
+          "text": "谈论天气",
+          "verdict": "tic"
+        },
+        {
+          "prompt_id": "L03",
+          "category": "emotion-flat",
+          "ruleId": "emo.tone-flat",
+          "text": "语气平淡",
+          "verdict": "tic"
+        },
+        {
+          "prompt_id": "L03",
+          "category": "emotion-flat",
+          "ruleId": "emo.no-audible-emotion",
+          "text": "听不出情绪",
+          "verdict": "tic"
+        }
+      ]
+    },
+    {
+      "model_id": "glm-5.1",
+      "label": "GLM-5.1",
+      "model": "Pro/zai-org/GLM-5.1",
+      "wave": "main",
+      "n_prompts": 6,
+      "n_ok": 6,
+      "n_errors": 0,
+      "chars": 4131,
+      "ticCount": 3,
+      "ticPerKilo": 0.7,
+      "byCategory": {
+        "template": 0,
+        "emotion-flat": 2,
+        "metaphor": 1
+      },
+      "simileRough": 21,
+      "avg_reply_chars": 688.5,
+      "hitDetails": [
+        {
+          "prompt_id": "L03",
+          "category": "emotion-flat",
+          "ruleId": "emo.tone-flat",
+          "text": "语气平淡",
+          "verdict": "tic"
+        },
+        {
+          "prompt_id": "L03",
+          "category": "metaphor",
+          "ruleId": "met.weather-talk",
+          "text": "像在说今天天气",
+          "verdict": "tic"
+        },
+        {
+          "prompt_id": "L03",
+          "category": "emotion-flat",
+          "ruleId": "emo.no-audible-emotion",
+          "text": "听不出什么起伏",
+          "verdict": "tic"
+        }
+      ]
+    },
+    {
+      "model_id": "glm-5.2",
+      "label": "GLM-5.2",
+      "model": "zai-org/GLM-5.2",
+      "wave": "main",
+      "n_prompts": 6,
+      "n_ok": 6,
+      "n_errors": 0,
+      "chars": 4525,
+      "ticCount": 3,
+      "ticPerKilo": 0.7,
+      "byCategory": {
+        "template": 3,
+        "emotion-flat": 0,
+        "metaphor": 0
+      },
+      "simileRough": 21,
+      "avg_reply_chars": 754.2,
+      "hitDetails": [
+        {
+          "prompt_id": "L02",
+          "category": "template",
+          "ruleId": "tpl.bu-shi-er-shi",
+          "text": "不是因为内容，而是因为墨迹",
+          "verdict": "tic"
+        },
+        {
+          "prompt_id": "L02",
+          "category": "template",
+          "ruleId": "tpl.mei-you-ye-mei-you",
+          "text": "没有出声，也没有起身",
+          "verdict": "tic"
+        },
+        {
+          "prompt_id": "L04",
+          "category": "template",
+          "ruleId": "tpl.mei-you-zhi-shi",
+          "text": "没有情绪，只是陈述般地念出他的名字",
+          "verdict": "tic"
+        }
+      ]
+    },
+    {
+      "model_id": "qwen3.6-27b",
+      "label": "Qwen3.6-27B",
+      "model": "Qwen/Qwen3.6-27B",
+      "wave": "main",
+      "n_prompts": 6,
+      "n_ok": 6,
+      "n_errors": 0,
+      "chars": 2940,
+      "ticCount": 1,
+      "ticPerKilo": 0.3,
+      "byCategory": {
+        "template": 0,
+        "emotion-flat": 1,
+        "metaphor": 0
+      },
+      "simileRough": 16,
+      "avg_reply_chars": 490,
+      "hitDetails": [
+        {
+          "prompt_id": "L03",
+          "category": "emotion-flat",
+          "ruleId": "emo.tone-flat",
+          "text": "语气平淡",
+          "verdict": "tic"
+        }
+      ]
+    },
+    {
+      "model_id": "deepseek-v4-pro",
+      "label": "DeepSeek-V4-Pro",
+      "model": "deepseek-ai/DeepSeek-V4-Pro",
+      "wave": "new",
+      "n_prompts": 6,
+      "n_ok": 6,
+      "n_errors": 0,
+      "chars": 4698,
+      "ticCount": 2,
+      "ticPerKilo": 0.4,
+      "byCategory": {
+        "template": 2,
+        "emotion-flat": 0,
+        "metaphor": 0
+      },
+      "simileRough": 28,
+      "avg_reply_chars": 783,
+      "hitDetails": [
+        {
+          "prompt_id": "L02",
+          "category": "template",
+          "ruleId": "tpl.mei-you-ye-mei-you",
+          "text": "没有翻，也没有动",
+          "verdict": "indeterminate"
+        },
+        {
+          "prompt_id": "L03",
+          "category": "template",
+          "ruleId": "tpl.mei-you-ye-mei-you-zhi-shi",
+          "text": "没有多余的同情，也没有刻意的打气，只是像看一个刚跑完马拉松的人，知道对方此刻最不需要的就是观众",
+          "verdict": "tic"
+        }
+      ]
+    },
+    {
+      "model_id": "qwen3.8-27b",
+      "label": "Qwen3.8-27B",
+      "model": "Qwen/Qwen3.8-27B",
+      "wave": "new",
+      "n_prompts": 6,
+      "n_ok": 6,
+      "n_errors": 0,
+      "chars": 3325,
+      "ticCount": 4,
+      "ticPerKilo": 1.2,
+      "byCategory": {
+        "template": 4,
+        "emotion-flat": 0,
+        "metaphor": 0
+      },
+      "simileRough": 32,
+      "avg_reply_chars": 554.2,
+      "hitDetails": [
+        {
+          "prompt_id": "L02",
+          "category": "template",
+          "ruleId": "tpl.bu-shi-er-shi",
+          "text": "不是警告，而是邀请——邀请他继续查下去，也邀请他成为下一个失踪的人",
+          "verdict": "tic"
+        },
+        {
+          "prompt_id": "L02",
+          "category": "template",
+          "ruleId": "tpl.mei-you-zhi-shi",
+          "text": "没有回头，只是慢慢把字条塞进卷宗夹层，动作轻得像在掩埋一具尸体",
+          "verdict": "tic"
+        },
+        {
+          "prompt_id": "L03",
+          "category": "template",
+          "ruleId": "tpl.bu-shi-er-shi",
+          "text": "不是被安慰，而是被看见",
+          "verdict": "indeterminate"
+        },
+        {
+          "prompt_id": "L04",
+          "category": "template",
+          "ruleId": "tpl.mei-you-ye-mei-you",
+          "text": "没有门，也没有窗，可那声音明明是从那里传出来的",
+          "verdict": "indeterminate"
+        }
+      ]
+    },
+    {
+      "model_id": "glm-5.3-flash",
+      "label": "GLM-5.3-Flash",
+      "model": "zai-org/GLM-5.3-Flash",
+      "wave": "new",
+      "n_prompts": 6,
+      "n_ok": 6,
+      "n_errors": 0,
+      "chars": 3824,
+      "ticCount": 2,
+      "ticPerKilo": 0.5,
+      "byCategory": {
+        "template": 1,
+        "emotion-flat": 1,
+        "metaphor": 0
+      },
+      "simileRough": 16,
+      "avg_reply_chars": 637.3,
+      "hitDetails": [
+        {
+          "prompt_id": "L02",
+          "category": "template",
+          "ruleId": "tpl.xiang-zai-you-xiang-zai",
+          "text": "像在听，又像在等他先动",
+          "verdict": "indeterminate"
+        },
+        {
+          "prompt_id": "L03",
+          "category": "emotion-flat",
+          "ruleId": "emo.casual-frame",
+          "text": "语气随意得",
+          "verdict": "tic"
+        }
+      ]
+    }
+  ]
+}

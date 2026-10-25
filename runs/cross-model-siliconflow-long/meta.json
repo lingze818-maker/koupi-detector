@@ -1,0 +1,85 @@
+{
+  "created": "2026-10-25 Asia/Shanghai",
+  "provider": "siliconflow",
+  "temperature": 0,
+  "system": "你是网文作者。根据给定场景写一段虚构正文，可含对白、旁白与内心活动。写满约四百到六百字，只输出正文，不要解释题目，不要列提纲。",
+  "prompt_file": "prompts-long.json",
+  "n_prompts": 6,
+  "genres": [
+    {
+      "id": "L01",
+      "genre": "甜宠"
+    },
+    {
+      "id": "L02",
+      "genre": "悬疑"
+    },
+    {
+      "id": "L03",
+      "genre": "职场"
+    },
+    {
+      "id": "L04",
+      "genre": "网文开篇"
+    },
+    {
+      "id": "L05",
+      "genre": "情绪对话续写"
+    },
+    {
+      "id": "L06",
+      "genre": "成长/回忆"
+    }
+  ],
+  "models": [
+    {
+      "id": "deepseek-v3.2",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "wave": "main",
+      "label": "DeepSeek-V3.2"
+    },
+    {
+      "id": "deepseek-r1",
+      "model": "deepseek-ai/DeepSeek-R1",
+      "wave": "main",
+      "label": "DeepSeek-R1"
+    },
+    {
+      "id": "glm-5.1",
+      "model": "Pro/zai-org/GLM-5.1",
+      "wave": "main",
+      "label": "GLM-5.1"
+    },
+    {
+      "id": "glm-5.2",
+      "model": "zai-org/GLM-5.2",
+      "wave": "main",
+      "label": "GLM-5.2"
+    },
+    {
+      "id": "qwen3.6-27b",
+      "model": "Qwen/Qwen3.6-27B",
+      "wave": "main",
+      "label": "Qwen3.6-27B"
+    },
+    {
+      "id": "deepseek-v4-pro",
+      "model": "deepseek-ai/DeepSeek-V4-Pro",
+      "wave": "new",
+      "label": "DeepSeek-V4-Pro"
+    },
+    {
+      "id": "qwen3.8-27b",
+      "model": "Qwen/Qwen3.8-27B",
+      "wave": "new",
+      "label": "Qwen3.8-27B"
+    },
+    {
+      "id": "glm-5.3-flash",
+      "model": "zai-org/GLM-5.3-Flash",
+      "wave": "new",
+      "label": "GLM-5.3-Flash"
+    }
+  ],
+  "note": "长文段（约400–600字）跨模型口癖横评；规则 scan + 像/仿佛/宛如/好似粗检。虚构场景。"
+}
