@@ -1,0 +1,377 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "v01",
+      "text": "周衡在码头上开口，语气平淡。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "语气平淡"
+    },
+    {
+      "id": "v02",
+      "text": "听不出什么情绪，只把货单递了过来。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "听不出什么情绪"
+    },
+    {
+      "id": "v03",
+      "text": "报完到港时间，声调不高不低。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "声调不高不低"
+    },
+    {
+      "id": "v04",
+      "text": "眉眼的弧度显得温和又疏淡，潮水刚好退到缆桩下。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "温和又疏淡"
+    },
+    {
+      "id": "v05",
+      "text": "他开口时口气淡得没有起伏。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "近义：口气淡、没有起伏，不是词表里的听不出起伏"
+    },
+    {
+      "id": "v06",
+      "text": "话音又平又稳，像把情绪按住了。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "近义：话音又平又稳，不是声音平稳"
+    },
+    {
+      "id": "v07",
+      "text": "脸上没什么表情起伏。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "近义：表情起伏，不是表情平静而松弛"
+    },
+    {
+      "id": "v08",
+      "text": "语调一直是那个平平的调门。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "近义：平平的调门，不是语调平缓"
+    },
+    {
+      "id": "v09",
+      "text": "他像在陈述一个事实，潮水已经退了。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "像在陈述一个事实"
+    },
+    {
+      "id": "v10",
+      "text": "再寻常不过，他把盐袋扛上肩。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "再寻常不过"
+    },
+    {
+      "id": "v11",
+      "text": "像刚才什么也没发生过，货箱还堆在原地。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "像刚才什么也没发生过"
+    },
+    {
+      "id": "v12",
+      "text": "像是怕惊到甲板上的鸥鸟。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "像是怕惊到"
+    },
+    {
+      "id": "v13",
+      "text": "像在报一段和自己不相干的路况。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "近义：报路况、不相干，不是陈述天气，也不是和自己无关的事"
+    },
+    {
+      "id": "v14",
+      "text": "仿佛这件事根本没在他身上发生。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "近义：没在他身上发生，不是刚才什么也没发生过"
+    },
+    {
+      "id": "v15",
+      "text": "平常得不能再平常。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "近义：不能再平常，不是再平常不过"
+    },
+    {
+      "id": "v16",
+      "text": "把到港说得像一件不用放在心上的小事。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "近义：不用放在心上的小事，不是无关紧要"
+    },
+    {
+      "id": "v17",
+      "text": "不是责备，而是把缆绳收紧。",
+      "label": "tic",
+      "category": "template",
+      "note": "不是……而是，槽位是言语行为"
+    },
+    {
+      "id": "v18",
+      "text": "没有慌张，也没有喜悦，只是看着潮水。",
+      "label": "tic",
+      "category": "template",
+      "note": "两个情绪槽加只是"
+    },
+    {
+      "id": "v19",
+      "text": "不是盐，也不是糖，而是沙子。",
+      "label": "tic",
+      "category": "template",
+      "note": "前文没提盐和糖，绕路否定",
+      "before": "灯塔亮了。"
+    },
+    {
+      "id": "v20",
+      "text": "不是潮水，而是雨水。",
+      "label": "tic",
+      "category": "template",
+      "note": "具体选项，没有前文，应不可判定"
+    },
+    {
+      "id": "v21",
+      "text": "不是夜航。他系好缆绳。而是靠港。",
+      "label": "tic",
+      "category": "template",
+      "note": "中间隔了一整句，应不可判定"
+    },
+    {
+      "id": "v22",
+      "text": "并非客套，而是把货单推过去。",
+      "label": "tic",
+      "category": "template",
+      "note": "并非……而是"
+    },
+    {
+      "id": "v23",
+      "text": "像在播报潮汐，又像是在下结论。",
+      "label": "tic",
+      "category": "template",
+      "note": "两边都是套话"
+    },
+    {
+      "id": "v24",
+      "text": "不是催促，也不是去年的那船货，而是把灯塔的日志合上。",
+      "label": "tic",
+      "category": "template",
+      "note": "一虚一实，应不可判定"
+    },
+    {
+      "id": "v25",
+      "text": "没有干粮。也没有淡水。他走到甲板边。只是海风。",
+      "label": "tic",
+      "category": "template",
+      "note": "前半能接上，没有前文；只是隔得太远"
+    },
+    {
+      "id": "v26",
+      "text": "却不是质问，而是把航标灯拧暗。",
+      "label": "tic",
+      "category": "template",
+      "note": "却不是……而是"
+    },
+    {
+      "id": "v27",
+      "text": "不是盐，而是糖。",
+      "label": "clean",
+      "category": null,
+      "note": "前文问过盐",
+      "before": "盐还要吗？"
+    },
+    {
+      "id": "v28",
+      "text": "他不是从跳板上来的，而是从缆梯上来的。",
+      "label": "clean",
+      "category": null,
+      "note": "前文问过跳板，否定槽以从开头",
+      "before": "跳板上有水吗？"
+    },
+    {
+      "id": "v29",
+      "text": "不是对货单，而是对潮汐表。",
+      "label": "clean",
+      "category": null,
+      "note": "前文问过货单，否定槽以对开头",
+      "before": "货单在桌上吗？"
+    },
+    {
+      "id": "v30",
+      "text": "不是被潮水打湿的，而是被雨打湿的。",
+      "label": "clean",
+      "category": null,
+      "note": "前文问过潮水，否定槽以被开头",
+      "before": "潮水漫过跳板了吗？"
+    },
+    {
+      "id": "v31",
+      "text": "他把货箱推好。而是灯塔还亮着。",
+      "label": "clean",
+      "category": null,
+      "note": "而是另起一句"
+    },
+    {
+      "id": "v32",
+      "text": "甲板干了。只是缆绳还在滴水。",
+      "label": "clean",
+      "category": null,
+      "note": "只是另起一句"
+    },
+    {
+      "id": "v33",
+      "text": "不是盐。他擦了擦手。风停了。而是糖。",
+      "label": "clean",
+      "category": null,
+      "note": "隔了两句，不应接上"
+    },
+    {
+      "id": "v34",
+      "text": "而是把缆绳收紧。",
+      "label": "clean",
+      "category": null,
+      "note": "跨轮，前半在上一轮",
+      "before": "不是催促。"
+    },
+    {
+      "id": "v35",
+      "text": "海面很平静。",
+      "label": "clean",
+      "category": null,
+      "note": "平静形容海面"
+    },
+    {
+      "id": "v36",
+      "text": "这锅鱼汤味道平淡，可是还热着。",
+      "label": "clean",
+      "category": null,
+      "note": "平淡形容鱼汤"
+    },
+    {
+      "id": "v37",
+      "text": "听得出他松了口气，缆绳不再响。",
+      "label": "clean",
+      "category": null,
+      "note": "听得出，不是听不出"
+    },
+    {
+      "id": "v38",
+      "text": "他不紧不慢地走上跳板。",
+      "label": "clean",
+      "category": null,
+      "note": "不紧不慢地走，不是那种调子"
+    },
+    {
+      "id": "v39",
+      "text": "今天海面的天色不错。",
+      "label": "clean",
+      "category": null,
+      "note": "今天海面的天色不错，不是今日天色不错"
+    },
+    {
+      "id": "v40",
+      "text": "他在念货单上的编号。",
+      "label": "clean",
+      "category": null,
+      "note": "在念货单，不是像在念书"
+    },
+    {
+      "id": "v41",
+      "text": "他的手像在把缆绳一圈圈盘进木箱，又像是在数箱子侧面褪色的编号。",
+      "label": "clean",
+      "category": null,
+      "note": "长比喻两边都具体"
+    },
+    {
+      "id": "v42",
+      "text": "先把航标灯点上。货箱还堆在栈桥上。",
+      "label": "clean",
+      "category": null,
+      "note": "寻常动作"
+    },
+    {
+      "id": "v43",
+      "text": "不是盐。他擦了擦手。而是糖。",
+      "label": "clean",
+      "category": null,
+      "note": "隔了一句，但前文提过盐，应放行",
+      "before": "盐用完了吗？"
+    },
+    {
+      "id": "v44",
+      "text": "只是看着潮水。",
+      "label": "clean",
+      "category": null,
+      "note": "跨轮，前半在上一轮",
+      "before": "没有慌张，也没有喜悦。"
+    },
+    {
+      "id": "v45",
+      "text": "渡船靠稳了。只是盐袋还没搬。",
+      "label": "clean",
+      "category": null,
+      "note": "只是是补充"
+    },
+    {
+      "id": "v46",
+      "text": "声音低沉，把到港的时间又说了一遍。",
+      "label": "clean",
+      "category": null,
+      "note": "单独的声音低沉"
+    },
+    {
+      "id": "v47",
+      "text": "普通的一天，盐仓还开着。",
+      "label": "clean",
+      "category": null,
+      "note": "普通，不是再普通不过"
+    },
+    {
+      "id": "v48",
+      "text": "这跟到港有关，他把货单留在了桌上。",
+      "label": "clean",
+      "category": null,
+      "note": "跟到港有关的普通句子"
+    },
+    {
+      "id": "v49",
+      "text": "他精确地把编号对齐。",
+      "label": "clean",
+      "category": null,
+      "note": "精确地对齐，不是需要精确操作的工作"
+    },
+    {
+      "id": "v50",
+      "text": "不是跳板。他停了一停。而是缆梯。",
+      "label": "clean",
+      "category": null,
+      "note": "中间隔了一整句，没有前文，应不可判定"
+    },
+    {
+      "id": "v51",
+      "text": "没有航标。码头上有风。也没有缆绳。",
+      "label": "clean",
+      "category": null,
+      "note": "也没有前面隔了一整句，应不可判定"
+    },
+    {
+      "id": "v52",
+      "text": "他不是在解释航线，而是把灯塔的日志合上。",
+      "label": "unjudgeable",
+      "category": "template",
+      "note": "人工拿不准"
+    }
+  ]
+}

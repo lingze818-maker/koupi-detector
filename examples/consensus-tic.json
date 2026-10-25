@@ -1,0 +1,230 @@
+{
+  "version": 1,
+  "description": "两人同判 tic 的虚构句，只留正文。不含 before、理由和标注人。不是真实对话。",
+  "items": [
+    {
+      "id": "s103",
+      "text": "她一条一条地讲，像在宣读会议纪要。",
+      "label": "tic",
+      "category": "metaphor",
+      "span": "像在宣读会议纪要"
+    },
+    {
+      "id": "s024",
+      "text": "话说出口，语气里连个涟漪都没有。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "span": "语气里连个涟漪都没有"
+    },
+    {
+      "id": "s022",
+      "text": "他古井无波似的，应了一声。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "span": "古井无波"
+    },
+    {
+      "id": "s002",
+      "text": "他把话说得极淡，一个字一个字往外放。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "span": "把话说得极淡"
+    },
+    {
+      "id": "s127",
+      "text": "他的口吻好似在讲丢了把伞。",
+      "label": "tic",
+      "category": "metaphor",
+      "span": "好似在讲丢了把伞"
+    },
+    {
+      "id": "s044",
+      "text": "他说得干巴巴的，一点情绪也挂不上。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "span": "一点情绪也挂不上"
+    },
+    {
+      "id": "s008",
+      "text": "周屿开口，声线平得找不到一个弯。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "span": "声线平得找不到一个弯"
+    },
+    {
+      "id": "s104",
+      "text": "他讲得像在读一份产品说明书。",
+      "label": "tic",
+      "category": "metaphor",
+      "span": "像在读一份产品说明书"
+    },
+    {
+      "id": "s021",
+      "text": "她的声音里没起一丝波澜。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "span": "没起一丝波澜"
+    },
+    {
+      "id": "s043",
+      "text": "她用毫无起伏的嗓音回答。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "span": "毫无起伏的嗓音"
+    },
+    {
+      "id": "s029",
+      "text": "他说话还是那个不急不缓的劲儿。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "span": "不急不缓的劲儿"
+    },
+    {
+      "id": "s134",
+      "text": "他说得跟聊家常差不多。",
+      "label": "tic",
+      "category": "metaphor",
+      "span": "跟聊家常差不多"
+    },
+    {
+      "id": "s120",
+      "text": "那口气，自然得不能更自然。",
+      "label": "tic",
+      "category": "metaphor",
+      "span": "自然得不能更自然"
+    },
+    {
+      "id": "s129",
+      "text": "她的语气像在说一加一等于二。",
+      "label": "tic",
+      "category": "metaphor",
+      "span": "像在说一加一等于二"
+    },
+    {
+      "id": "s041",
+      "text": "他用一种不带感情的声音念出她的名字。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "span": "不带感情的声音"
+    },
+    {
+      "id": "s048",
+      "text": "他讲完了，听不出半分波澜。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "span": "听不出半分波澜"
+    },
+    {
+      "id": "s010",
+      "text": "老陈说这话时嗓子里一点高低都没有。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "span": "嗓子里一点高低都没有"
+    },
+    {
+      "id": "s006",
+      "text": "他的嗓音四平八稳，一句接一句。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "span": "嗓音四平八稳"
+    },
+    {
+      "id": "s106",
+      "text": "他仿佛在汇报这周的工作进度。",
+      "label": "tic",
+      "category": "metaphor",
+      "span": "仿佛在汇报这周的工作进度"
+    },
+    {
+      "id": "s046",
+      "text": "他语调平缓，只说了句会处理。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "span": "语调平缓"
+    },
+    {
+      "id": "s136",
+      "text": "他像随口点评了一句今天的菜咸了。",
+      "label": "tic",
+      "category": "metaphor",
+      "span": "像随口点评了一句今天的菜咸了"
+    },
+    {
+      "id": "s122",
+      "text": "他讲这事就像讲每天都会发生的事一样。",
+      "label": "tic",
+      "category": "metaphor",
+      "span": "就像讲每天都会发生的事一样"
+    },
+    {
+      "id": "s142",
+      "text": "她的口吻好像在念一份盖了章的结论。",
+      "label": "tic",
+      "category": "metaphor",
+      "span": "像在念一份盖了章的结论"
+    },
+    {
+      "id": "s123",
+      "text": "他提起来像说一件芝麻绿豆的小事。",
+      "label": "tic",
+      "category": "metaphor",
+      "span": "像说一件芝麻绿豆的小事"
+    },
+    {
+      "id": "s007",
+      "text": "听筒里她的话声稳稳当当，没有起落。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "span": "话声稳稳当当，没有起落"
+    },
+    {
+      "id": "s119",
+      "text": "说得像家常便饭一样。",
+      "label": "tic",
+      "category": "metaphor",
+      "span": "像家常便饭一样"
+    },
+    {
+      "id": "s013",
+      "text": "阿桥的五官纹丝不动。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "span": "五官纹丝不动"
+    },
+    {
+      "id": "s025",
+      "text": "他眼底静得没有一点起伏。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "span": "眼底静得没有一点起伏"
+    },
+    {
+      "id": "s131",
+      "text": "她讲得像是在讲太阳从东边出来。",
+      "label": "tic",
+      "category": "metaphor",
+      "span": "像是在讲太阳从东边出来"
+    },
+    {
+      "id": "s009",
+      "text": "他回话的调门一直是平的。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "span": "调门一直是平的"
+    },
+    {
+      "id": "s037",
+      "text": "他把情绪收得干干净净。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "span": "把情绪收得干干净净"
+    },
+    {
+      "id": "s143",
+      "text": "他重复了一遍，像下了个没得商量的定论。",
+      "label": "tic",
+      "category": "metaphor",
+      "span": "像下了个没得商量的定论"
+    }
+  ]
+}

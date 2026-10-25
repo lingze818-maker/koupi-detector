@@ -1,0 +1,426 @@
+{
+  "version": 1,
+  "name": "default",
+  "categories": [
+    {
+      "id": "template",
+      "title": "句式模板 / 无意义转折",
+      "primary": true,
+      "description": "没有……也没有……只是、不是……而是、像在……又像是在，以及前文没人提过的绕路否定。转折一多，说话就只剩同一种死板节奏。"
+    },
+    {
+      "id": "emotion-flat",
+      "title": "情绪抹平",
+      "primary": false,
+      "description": "语气被写成平淡、平稳、听不出情绪。情感只剩一层，角色的起伏接不上。"
+    },
+    {
+      "id": "metaphor",
+      "title": "比喻套话",
+      "primary": false,
+      "description": "用陈述天气、再寻常不过、什么也没发生过替换具体反应。"
+    }
+  ],
+  "rules": [
+    {
+      "id": "tpl.mei-you-ye-mei-you-zhi-shi",
+      "category": "template",
+      "kind": "template",
+      "shape": "mei-you-ye-mei-you-zhi-shi",
+      "description": "没有……也没有……只是",
+      "examples": ["没有生气，也没有惊讶，只是看着她", "没有停顿也没有犹豫只是把杯子放下"]
+    },
+    {
+      "id": "tpl.mei-you-ye-mei-you-er-shi",
+      "category": "template",
+      "kind": "template",
+      "shape": "mei-you-ye-mei-you-er-shi",
+      "description": "没有……也没有……而是",
+      "examples": ["没有责备，也没有安慰，而是把话放平"]
+    },
+    {
+      "id": "tpl.bu-shi-ye-bu-shi-er-shi",
+      "category": "template",
+      "kind": "template",
+      "shape": "bu-shi-ye-bu-shi-er-shi",
+      "description": "不是……也不是……而是",
+      "examples": ["不是责备，也不是安慰，而是把话放平"]
+    },
+    {
+      "id": "tpl.mei-you-ye-mei-you",
+      "category": "template",
+      "kind": "template",
+      "shape": "mei-you-ye-mei-you",
+      "description": "没有……也没有",
+      "examples": ["没有调侃，也没有笑意"]
+    },
+    {
+      "id": "tpl.mei-you-zhi-shi",
+      "category": "template",
+      "kind": "template",
+      "shape": "mei-you-zhi-shi",
+      "description": "没有……只是",
+      "examples": ["没有催促，只是把杯子放下"]
+    },
+    {
+      "id": "tpl.mei-you-er-shi",
+      "category": "template",
+      "kind": "template",
+      "shape": "mei-you-er-shi",
+      "description": "没有……而是",
+      "examples": ["没有方才那种懒洋洋的调侃，而是把声音放平"]
+    },
+    {
+      "id": "tpl.bu-shi-er-shi",
+      "category": "template",
+      "kind": "template",
+      "shape": "bu-shi-er-shi",
+      "description": "不是……而是，含并不是、却不是、并非",
+      "examples": ["并不是催促，而是把账本合上", "并非责备，而是把声音压平", "却不是质问，而是把灯拧暗"]
+    },
+    {
+      "id": "tpl.xiang-zai-you-xiang-zai",
+      "category": "template",
+      "kind": "template",
+      "shape": "xiang-zai-you-xiang-zai",
+      "description": "像在……又像是在",
+      "examples": ["像在陈述事实，又像是在念一份结论", "仿佛在评价，又像在播报"]
+    },
+    {
+      "id": "emo.tone-flat",
+      "category": "emotion-flat",
+      "kind": "regex",
+      "description": "语气、语调或声音被写成平淡、平静、平稳、平缓、平直",
+      "pattern": "(?:语气|语调|声调|声音|嗓音)(?:很|非常|十分|依旧|仍然|还是|更|低沉|温和|平直)?[，,]?(?:平淡|平静|平稳|平缓|平直)",
+      "examples": ["他语气平淡", "声音很平淡", "声音低沉平缓", "语调平缓温和", "声音仍然平稳"]
+    },
+    {
+      "id": "emo.no-audible-emotion",
+      "category": "emotion-flat",
+      "kind": "regex",
+      "description": "听不出情绪、起伏或波澜",
+      "pattern": "听不出(?:什么|半分|太多|一丝)?(?:特别的|多余的|明显的)?(?:情绪|起伏|波澜)",
+      "examples": ["听不出什么情绪", "听不出什么特别的情绪", "却听不出什么多余的情绪"]
+    },
+    {
+      "id": "emo.no-extra-emotion",
+      "category": "emotion-flat",
+      "kind": "regex",
+      "description": "没有多余的情绪",
+      "pattern": "没有(?:什么|太多|半点)?多余的情绪",
+      "examples": ["没有什么多余的情绪", "没有多余的情绪"]
+    },
+    {
+      "id": "emo.pitch-mid",
+      "category": "emotion-flat",
+      "kind": "regex",
+      "description": "声调不高不低",
+      "pattern": "声调不高不低",
+      "examples": ["声调不高不低"]
+    },
+    {
+      "id": "emo.voice-restored",
+      "category": "emotion-flat",
+      "kind": "regex",
+      "description": "声音恢复成往常的平稳或温和",
+      "pattern": "声音恢复了(?:往常|平常|以往)的(?:温和周正|温和|平稳|平淡|周正)",
+      "examples": ["声音恢复了往常的温和周正", "声音恢复了平常的平稳"]
+    },
+    {
+      "id": "emo.mild-distant",
+      "category": "emotion-flat",
+      "kind": "regex",
+      "description": "温和又疏淡",
+      "pattern": "温和又疏淡",
+      "examples": ["眉眼的弧度显得温和又疏淡"]
+    },
+    {
+      "id": "emo.unhurried",
+      "category": "emotion-flat",
+      "kind": "regex",
+      "description": "不紧不慢的调子",
+      "pattern": "不紧不慢的调子",
+      "examples": ["他的语气还是那种不紧不慢的调子"]
+    },
+    {
+      "id": "emo.casual-frame",
+      "category": "emotion-flat",
+      "kind": "regex",
+      "description": "语气随意得……，后面通常接套话",
+      "pattern": "语气随意得",
+      "examples": ["语气随意得像在说今天天气不错"]
+    },
+    {
+      "id": "emo.flat-register",
+      "category": "emotion-flat",
+      "kind": "regex",
+      "description": "平直的陈述语气",
+      "pattern": "平直的陈述语气",
+      "examples": ["带着一种少见的、平直的陈述语气"]
+    },
+    {
+      "id": "emo.expression",
+      "category": "emotion-flat",
+      "kind": "regex",
+      "description": "表情平静而松弛，或专注而平静",
+      "pattern": "表情(?:平静而(?:松弛|专注|疏淡)|专注而平静)",
+      "examples": ["表情平静而松弛", "表情专注而平静"]
+    },
+    {
+      "id": "met.stating",
+      "category": "metaphor",
+      "kind": "regex",
+      "description": "像在陈述事实或天气",
+      "pattern": "像(?:是)?在陈述(?:了)?(?:一[个件])?[^。！？⏎]{0,18}?(?:事实|天气)",
+      "examples": ["像在陈述一个事实", "像是在陈述天气"]
+    },
+    {
+      "id": "met.weather-talk",
+      "category": "metaphor",
+      "kind": "regex",
+      "description": "像在说天气、谈论天气",
+      "pattern": "像(?:是)?在说(?:今天|今日)?的?天气|谈论天气",
+      "examples": ["像在说今天的天气", "就像谈论天气", "像在说今天天气不错"]
+    },
+    {
+      "id": "met.nothing-happened",
+      "category": "metaphor",
+      "kind": "regex",
+      "description": "像刚才什么也没发生过",
+      "pattern": "(?:像|仿佛)(?:是)?刚才什么也没发生过?",
+      "examples": ["像刚才什么也没发生过一样", "仿佛刚才什么也没发生"]
+    },
+    {
+      "id": "met.ordinary",
+      "category": "metaphor",
+      "kind": "regex",
+      "description": "再寻常不过、再平常不过、再普通不过",
+      "pattern": "再(?:寻常|平常|普通)不过",
+      "examples": ["再寻常不过", "再平常不过的事实"]
+    },
+    {
+      "id": "met.matter-of-course",
+      "category": "metaphor",
+      "kind": "regex",
+      "description": "理所当然的事",
+      "pattern": "理所当然的事",
+      "examples": ["像在陈述一件理所当然的事"]
+    },
+    {
+      "id": "met.irrelevant",
+      "category": "metaphor",
+      "kind": "regex",
+      "description": "无关紧要的事实或细节",
+      "pattern": "无关紧要的(?:事实|细节|小事|事)",
+      "examples": ["无关紧要的细节", "无关紧要的事实"]
+    },
+    {
+      "id": "met.nonnegotiable",
+      "category": "metaphor",
+      "kind": "regex",
+      "description": "不容商榷的事实",
+      "pattern": "不容商榷的事实",
+      "examples": ["不容商榷的事实"]
+    },
+    {
+      "id": "met.forecast",
+      "category": "metaphor",
+      "kind": "regex",
+      "description": "把天气预报当成陈述套话",
+      "pattern": "(?:像(?:是)?在陈述|仿佛在说|陈述)[^。！？⏎]{0,6}天气预报",
+      "examples": ["像在陈述天气预报"]
+    },
+    {
+      "id": "met.nice-day",
+      "category": "metaphor",
+      "kind": "regex",
+      "description": "今日天色不错这一句套话",
+      "pattern": "今日天色不错",
+      "examples": ["仿佛只是说了一句“今日天色不错”"]
+    },
+    {
+      "id": "met.afraid",
+      "category": "metaphor",
+      "kind": "regex",
+      "description": "像是怕惊到什么",
+      "pattern": "像是怕惊到",
+      "examples": ["像是怕惊到什么似的"]
+    },
+    {
+      "id": "met.arrived",
+      "category": "metaphor",
+      "kind": "regex",
+      "description": "已经到站的事实",
+      "pattern": "已经到站的事实",
+      "examples": ["已经到站的事实"]
+    },
+    {
+      "id": "met.commenting",
+      "category": "metaphor",
+      "kind": "regex",
+      "description": "像是评价、像在点评",
+      "pattern": "像(?:是)?在?(?:评价|点评)",
+      "examples": ["像是评价", "像是在点评", "像在点评"]
+    },
+    {
+      "id": "met.reading",
+      "category": "metaphor",
+      "kind": "regex",
+      "description": "就像念书",
+      "pattern": "就像念书|像(?:是)?在念书|像(?:是)?念书",
+      "examples": ["就像念书"]
+    },
+    {
+      "id": "met.unrelated",
+      "category": "metaphor",
+      "kind": "regex",
+      "description": "和自己无关的事",
+      "pattern": "和自己无关的事",
+      "examples": ["就像在说一件和自己无关的事"]
+    },
+    {
+      "id": "met.precise-work",
+      "category": "metaphor",
+      "kind": "regex",
+      "description": "像在做一件需要精确操作的工作",
+      "pattern": "需要精确操作的工作",
+      "examples": ["像在做一件需要精确操作的工作"]
+    },
+    {
+      "id": "emo.voice-level",
+      "category": "emotion-flat",
+      "kind": "regex",
+      "description": "声线、嗓音、话声、嗓子或调门被写成没有高低",
+      "pattern": "(?:声线|嗓音|话声|嗓子|调门)(?:里|上)?[^。！？]{0,12}(?:四平八稳|稳稳当当|一点高低都没有|找不到一个弯|一直是平的|没有起落)",
+      "examples": ["嗓音四平八稳", "声线平得找不到一个弯", "调门一直是平的", "嗓子里一点高低都没有", "话声稳稳当当，没有起落"]
+    },
+    {
+      "id": "emo.no-wave",
+      "category": "emotion-flat",
+      "kind": "regex",
+      "description": "声音或语气里没起波澜、连涟漪都没有",
+      "pattern": "(?:声音|语气|嗓音|话声|声线|心里|心头|眼底)(?:里|中)?[^。！？，,]{0,4}没起(?:一丝|半分|一点|丝毫)?波澜|(?:语气|声音|嗓音|话声|声线|心里|心头|眼底)(?:里|中)?连(?:一)?个?涟漪都没有",
+      "examples": ["声音里没起一丝波澜", "语气里连个涟漪都没有"]
+    },
+    {
+      "id": "emo.still-well",
+      "category": "emotion-flat",
+      "kind": "regex",
+      "description": "用人称或「似的」带出的古井无波，不打井水本身",
+      "pattern": "(?:他|她|我)古井无波|古井无波(?:似的|地)",
+      "examples": ["他古井无波似的应了一声"]
+    },
+    {
+      "id": "emo.eye-flat",
+      "category": "emotion-flat",
+      "kind": "regex",
+      "description": "眼底静得没有一点起伏",
+      "pattern": "(?:眼底|眼中)[^。！？]{0,8}没有一点起伏",
+      "examples": ["眼底静得没有一点起伏"]
+    },
+    {
+      "id": "emo.said-bland",
+      "category": "emotion-flat",
+      "kind": "regex",
+      "description": "把话说得极淡",
+      "pattern": "话说得极淡",
+      "examples": ["他把话说得极淡"]
+    },
+    {
+      "id": "emo.face-still",
+      "category": "emotion-flat",
+      "kind": "regex",
+      "description": "五官纹丝不动",
+      "pattern": "五官纹丝不动",
+      "examples": ["五官纹丝不动"]
+    },
+    {
+      "id": "emo.unrushed-air",
+      "category": "emotion-flat",
+      "kind": "regex",
+      "description": "不急不缓的劲儿，不是走路的节奏",
+      "pattern": "不急不缓的劲",
+      "examples": ["他还是那个不急不缓的劲儿"]
+    },
+    {
+      "id": "emo.emotion-tidied",
+      "category": "emotion-flat",
+      "kind": "regex",
+      "description": "把情绪收得干干净净",
+      "pattern": "情绪收得干干净净",
+      "examples": ["他把情绪收得干干净净"]
+    },
+    {
+      "id": "emo.no-feeling",
+      "category": "emotion-flat",
+      "kind": "regex",
+      "description": "不带感情的声音，或情绪挂不上",
+      "pattern": "不带感情的(?:声音|嗓音|语气|语调|口吻)|毫无起伏的(?:嗓音|声音|语调|语气|声线|调门)|一点情绪也挂不上|挂不上情绪",
+      "examples": ["不带感情的声音", "毫无起伏的嗓音", "一点情绪也挂不上"]
+    },
+    {
+      "id": "met.minutes",
+      "category": "metaphor",
+      "kind": "regex",
+      "description": "像在宣读会议纪要",
+      "pattern": "(?:像(?:是)?在|仿佛在|好像在|好似在)宣读[^。！？]{0,8}纪要",
+      "examples": ["像在宣读会议纪要"]
+    },
+    {
+      "id": "met.manual",
+      "category": "metaphor",
+      "kind": "regex",
+      "description": "像在读说明书，不是真的在读",
+      "pattern": "(?:像(?:是)?在|仿佛在|好像在|好似在)读[^。！？]{0,10}说明书",
+      "examples": ["像在读一份产品说明书"]
+    },
+    {
+      "id": "met.progress",
+      "category": "metaphor",
+      "kind": "regex",
+      "description": "仿佛在汇报工作进度",
+      "pattern": "(?:像(?:是)?|仿佛|好像|好似)在汇报[^。！？]{0,12}进度",
+      "examples": ["仿佛在汇报这周的工作进度"]
+    },
+    {
+      "id": "met.commonplace",
+      "category": "metaphor",
+      "kind": "regex",
+      "description": "像家常便饭、自然得不能更自然、每天都会发生的事",
+      "pattern": "像家常便饭一样|像(?:是)?家常便饭|自然得不能更自然|(?:就像|仿佛|好像|好似|像)[^。！？]{0,6}每天都会发生的事",
+      "examples": ["说得像家常便饭一样", "自然得不能更自然", "就像讲每天都会发生的事一样"]
+    },
+    {
+      "id": "met.trivial",
+      "category": "metaphor",
+      "kind": "regex",
+      "description": "芝麻绿豆的小事",
+      "pattern": "芝麻绿豆的小事",
+      "examples": ["像说一件芝麻绿豆的小事"]
+    },
+    {
+      "id": "met.obvious",
+      "category": "metaphor",
+      "kind": "regex",
+      "description": "一加一等于二，或太阳从东边出来",
+      "pattern": "(?:像|仿佛|好像|好似)[^。！？]{0,10}(?:一加一等于二|太阳从东边出来)",
+      "examples": ["像在说一加一等于二", "像是在讲太阳从东边出来"]
+    },
+    {
+      "id": "met.small-talk",
+      "category": "metaphor",
+      "kind": "regex",
+      "description": "跟聊家常差不多，或像随口点评",
+      "pattern": "跟聊家常差不多|像聊家常一样|(?:像|仿佛|好像|好似)[^。！？]{0,6}随口点评",
+      "examples": ["跟聊家常差不多", "像随口点评了一句"]
+    },
+    {
+      "id": "met.sealed",
+      "category": "metaphor",
+      "kind": "regex",
+      "description": "盖了章的结论，或没得商量的定论",
+      "pattern": "盖了章的结论|没得商量的定论",
+      "examples": ["像在念一份盖了章的结论", "像下了个没得商量的定论"]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "koupi",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "零依赖的中文角色扮演模型口癖检测",
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "koupi": "./cli.mjs"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}

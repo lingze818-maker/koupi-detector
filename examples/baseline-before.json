@@ -1,0 +1,129 @@
+{
+  "note": "规则改动前，对当时的 examples/gold.json 与 examples/holdout.json 跑 evaluateGold 得到的摘要。修复后的对比用这份数字，不要改它去凑数。",
+  "gold": {
+    "size": 150,
+    "detectionRate": 0.9871794871794872,
+    "falsePositiveRate": 0,
+    "indeterminateRate": 0.04794520547945205,
+    "counts": {
+      "tp": 77,
+      "fn": 1,
+      "fp": 0,
+      "tn": 61,
+      "indeterminateOnTic": 6,
+      "indeterminateOnClean": 1,
+      "decidable": 146,
+      "goldUnjudgeable": 4
+    },
+    "byCategory": [
+      {
+        "id": "template",
+        "title": "句式模板 / 无意义转折",
+        "detectionRate": 0.9642857142857143,
+        "falsePositiveRate": 0,
+        "indeterminateRate": 0.17647058823529413,
+        "counts": {
+          "tp": 27,
+          "fn": 1,
+          "fp": 0,
+          "tn": 61,
+          "indeterminate": 6,
+          "positives": 34
+        }
+      },
+      {
+        "id": "emotion-flat",
+        "title": "情绪抹平",
+        "detectionRate": 1,
+        "falsePositiveRate": 0,
+        "indeterminateRate": 0,
+        "counts": {
+          "tp": 25,
+          "fn": 0,
+          "fp": 0,
+          "tn": 61,
+          "indeterminate": 0,
+          "positives": 25
+        }
+      },
+      {
+        "id": "metaphor",
+        "title": "比喻套话",
+        "detectionRate": 1,
+        "falsePositiveRate": 0,
+        "indeterminateRate": 0,
+        "counts": {
+          "tp": 25,
+          "fn": 0,
+          "fp": 0,
+          "tn": 61,
+          "indeterminate": 0,
+          "positives": 25
+        }
+      }
+    ]
+  },
+  "holdout": {
+    "size": 52,
+    "detectionRate": 0.9565217391304348,
+    "falsePositiveRate": 0.04,
+    "indeterminateRate": 0.058823529411764705,
+    "counts": {
+      "tp": 22,
+      "fn": 1,
+      "fp": 1,
+      "tn": 24,
+      "indeterminateOnTic": 3,
+      "indeterminateOnClean": 0,
+      "decidable": 51,
+      "goldUnjudgeable": 1
+    },
+    "byCategory": [
+      {
+        "id": "template",
+        "title": "句式模板 / 无意义转折",
+        "detectionRate": 0.8571428571428571,
+        "falsePositiveRate": 0.04,
+        "indeterminateRate": 0.3,
+        "counts": {
+          "tp": 6,
+          "fn": 1,
+          "fp": 1,
+          "tn": 24,
+          "indeterminate": 3,
+          "positives": 10
+        }
+      },
+      {
+        "id": "emotion-flat",
+        "title": "情绪抹平",
+        "detectionRate": 1,
+        "falsePositiveRate": 0,
+        "indeterminateRate": 0,
+        "counts": {
+          "tp": 8,
+          "fn": 0,
+          "fp": 0,
+          "tn": 25,
+          "indeterminate": 0,
+          "positives": 8
+        }
+      },
+      {
+        "id": "metaphor",
+        "title": "比喻套话",
+        "detectionRate": 1,
+        "falsePositiveRate": 0,
+        "indeterminateRate": 0,
+        "counts": {
+          "tp": 8,
+          "fn": 0,
+          "fp": 0,
+          "tn": 25,
+          "indeterminate": 0,
+          "positives": 8
+        }
+      }
+    ]
+  }
+}

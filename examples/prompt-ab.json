@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "temperature": 0,
+  "minDeltaPerKilo": 1,
+  "baselineId": "baseline",
+  "note": "本仓库没有这三组提示的生成 runs。每千字口癖率和归因都是未测。不要把别处草稿里的「无增益」写成这次的测量。",
+  "variants": [
+    {
+      "id": "baseline",
+      "arm": "生成侧",
+      "factor": "无额外提示",
+      "system": "你写虚构角色的下一句。只写这一句。"
+    },
+    {
+      "id": "style",
+      "arm": "生成侧",
+      "factor": "风格提示",
+      "system": "你写虚构角色的下一句。用这个人平时的短句，不要写成说明文。"
+    },
+    {
+      "id": "adhd",
+      "arm": "生成侧",
+      "factor": "ADHD 短提示",
+      "system": "你写虚构角色的下一句。先写动作，一句一事。"
+    }
+  ],
+  "runs": []
+}

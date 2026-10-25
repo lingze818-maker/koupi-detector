@@ -1,0 +1,382 @@
+{
+  "version": 1,
+  "description": "虚构留出集。分布与金标相近，写完后不按它的分数改规则，也不改句子去凑数。没有真实对话，没有个人信息。",
+  "items": [
+    {
+      "id": "h01",
+      "text": "煤油灯芯爆了一下，他语气平淡。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "语气平淡"
+    },
+    {
+      "id": "h02",
+      "text": "夜雨打在油纸伞上，声音很平淡。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "声音很平淡"
+    },
+    {
+      "id": "h03",
+      "text": "听不出什么情绪，只把旧报纸叠好。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "听不出什么情绪"
+    },
+    {
+      "id": "h04",
+      "text": "没有多余的情绪，石阶是湿的。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "没有多余的情绪"
+    },
+    {
+      "id": "h05",
+      "text": "声调不高不低。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "声调不高不低"
+    },
+    {
+      "id": "h06",
+      "text": "声音恢复了平常的平稳。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "声音恢复了平常的平稳"
+    },
+    {
+      "id": "h07",
+      "text": "眉眼显得温和又疏淡。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "温和又疏淡"
+    },
+    {
+      "id": "h08",
+      "text": "表情平静而松弛，铜铃没再响。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "表情平静而松弛"
+    },
+    {
+      "id": "h09",
+      "text": "他说门牌号，像在陈述一个事实。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "像在陈述事实"
+    },
+    {
+      "id": "h10",
+      "text": "像在说今天的天气，夜雨却更大了。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "像在说今天的天气"
+    },
+    {
+      "id": "h11",
+      "text": "再寻常不过，只是一盏煤油灯。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "再寻常不过"
+    },
+    {
+      "id": "h12",
+      "text": "像刚才什么也没发生过一样，报纸还是干的。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "像刚才什么也没发生过"
+    },
+    {
+      "id": "h13",
+      "text": "像是怕惊到什么似的，把铃捂住。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "像是怕惊到"
+    },
+    {
+      "id": "h14",
+      "text": "就像念书，把邮戳的日期读出来。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "就像念书"
+    },
+    {
+      "id": "h15",
+      "text": "已经到站的事实，他不肯再讲第二遍。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "已经到站的事实"
+    },
+    {
+      "id": "h16",
+      "text": "像在做一件需要精确操作的工作，其实是在数石阶。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "需要精确操作的工作"
+    },
+    {
+      "id": "h17",
+      "text": "没有慌张，也没有喜悦，只是把油纸伞靠好。",
+      "label": "tic",
+      "category": "template",
+      "note": "两个情绪槽"
+    },
+    {
+      "id": "h18",
+      "text": "不是煤油，也不是蜡烛，而是一盏电灯。",
+      "label": "tic",
+      "category": "template",
+      "note": "绕路否定：前文没提煤油和蜡烛",
+      "before": "夜雨还在下。"
+    },
+    {
+      "id": "h19",
+      "text": "并非客套，而是把旧报纸推过去。",
+      "label": "tic",
+      "category": "template",
+      "note": "并非……而是"
+    },
+    {
+      "id": "h20",
+      "text": "不是石阶。而是门内的干地。",
+      "label": "tic",
+      "category": "template",
+      "note": "一个句号，前文没提石阶",
+      "before": "铜铃响了一声。"
+    },
+    {
+      "id": "h21",
+      "text": "没有邮戳，只是一张白纸。",
+      "label": "tic",
+      "category": "template",
+      "note": "前文没提邮戳",
+      "before": "门牌被雨打湿了。"
+    },
+    {
+      "id": "h22",
+      "text": "像在汇报，又像是在念稿。",
+      "label": "tic",
+      "category": "template",
+      "note": "两边都是套话"
+    },
+    {
+      "id": "h23",
+      "text": "不是煤油，而是灯油。",
+      "label": "tic",
+      "category": "template",
+      "note": "具体选项，没有前文，应不可判定"
+    },
+    {
+      "id": "h24",
+      "text": "不是追问，也不是去年的那张报纸，而是把石阶的水扫掉。",
+      "label": "tic",
+      "category": "template",
+      "note": "一虚一实，应不可判定"
+    },
+    {
+      "id": "h25",
+      "text": "没有铜铃。也没有门牌。他停在檐下。只是一把湿伞。",
+      "label": "tic",
+      "category": "template",
+      "note": "前半跨一句，没有前文；只是隔得太远"
+    },
+    {
+      "id": "h26",
+      "text": "不是夜雨。他擦了擦手。而是屋檐水。",
+      "label": "tic",
+      "category": "template",
+      "note": "中间隔了一整句，应漏检"
+    },
+    {
+      "id": "h27",
+      "text": "这不是煤油，而是灯油。",
+      "label": "clean",
+      "category": null,
+      "note": "前文问过煤油",
+      "before": "煤油用完了吗？"
+    },
+    {
+      "id": "h28",
+      "text": "没有旧报纸，只是一张白纸。",
+      "label": "clean",
+      "category": null,
+      "note": "前文问过旧报纸",
+      "before": "旧报纸还在架子上吗？"
+    },
+    {
+      "id": "h29",
+      "text": "不是门牌上的号，而是信箱上的。",
+      "label": "clean",
+      "category": null,
+      "note": "前文提过门牌上的号",
+      "before": "门牌上的号看不清。"
+    },
+    {
+      "id": "h30",
+      "text": "他不是从石阶上来的，而是从侧门进来的。",
+      "label": "clean",
+      "category": null,
+      "note": "前文问过石阶",
+      "before": "石阶上有脚印吗？"
+    },
+    {
+      "id": "h31",
+      "text": "不是油纸伞，而是布伞。",
+      "label": "clean",
+      "category": null,
+      "note": "前文问过油纸伞",
+      "before": "油纸伞是谁的？"
+    },
+    {
+      "id": "h32",
+      "text": "没有蜡烛，也没有煤油，只是这盏电灯。",
+      "label": "clean",
+      "category": null,
+      "note": "蜡烛和煤油都在前文出现",
+      "before": "蜡烛和煤油都收起来了吗？"
+    },
+    {
+      "id": "h33",
+      "text": "他把报纸叠好。而是铜铃又响了。",
+      "label": "clean",
+      "category": null,
+      "note": "而是另起一句"
+    },
+    {
+      "id": "h34",
+      "text": "石阶干了。只是门牌还在滴水。",
+      "label": "clean",
+      "category": null,
+      "note": "只是另起一句"
+    },
+    {
+      "id": "h35",
+      "text": "夜雨小了。而是檐下仍有风。",
+      "label": "clean",
+      "category": null,
+      "note": "而是另起一句"
+    },
+    {
+      "id": "h36",
+      "text": "邮戳模糊。只是日期还认得。",
+      "label": "clean",
+      "category": null,
+      "note": "只是是补充"
+    },
+    {
+      "id": "h37",
+      "text": "而是把伞收起来。",
+      "label": "clean",
+      "category": null,
+      "note": "跨轮，前半在上一轮",
+      "before": "不是催促。"
+    },
+    {
+      "id": "h38",
+      "text": "只是看着门牌。",
+      "label": "clean",
+      "category": null,
+      "note": "跨轮，前半在上一轮",
+      "before": "没有慌张，也没有喜悦。"
+    },
+    {
+      "id": "h39",
+      "text": "而是灯油。",
+      "label": "clean",
+      "category": null,
+      "note": "跨轮，前半在上一轮",
+      "before": "不是煤油，也不是蜡烛。"
+    },
+    {
+      "id": "h40",
+      "text": "不是煤油。他看了看灯芯。而是灯油。",
+      "label": "clean",
+      "category": null,
+      "note": "同一轮隔了两句"
+    },
+    {
+      "id": "h41",
+      "text": "没有铜铃。屋外有雨。也没有门牌。",
+      "label": "clean",
+      "category": null,
+      "note": "也没有隔了一整句"
+    },
+    {
+      "id": "h42",
+      "text": "这壶灯油味道平淡，可是还亮。",
+      "label": "clean",
+      "category": null,
+      "note": "平淡形容灯油"
+    },
+    {
+      "id": "h43",
+      "text": "石阶上的水很平静。",
+      "label": "clean",
+      "category": null,
+      "note": "平静形容水"
+    },
+    {
+      "id": "h44",
+      "text": "听得出他松了口气，铜铃不再响。",
+      "label": "clean",
+      "category": null,
+      "note": "听得出，不是听不出"
+    },
+    {
+      "id": "h45",
+      "text": "没有多余的报纸，架子空了一格。",
+      "label": "clean",
+      "category": null,
+      "note": "多余的报纸，不是多余的情绪"
+    },
+    {
+      "id": "h46",
+      "text": "他不紧不慢地踏上石阶。",
+      "label": "clean",
+      "category": null,
+      "note": "不紧不慢地走，不是那种调子"
+    },
+    {
+      "id": "h47",
+      "text": "今夜天色不错，油纸伞可以收了。",
+      "label": "clean",
+      "category": null,
+      "note": "今夜天色不错，不是那句套话"
+    },
+    {
+      "id": "h48",
+      "text": "他怕惊到檐下的蛾子。",
+      "label": "clean",
+      "category": null,
+      "note": "怕惊到蛾子，没有像是怕惊到"
+    },
+    {
+      "id": "h49",
+      "text": "普通的铜铃，没有刻字。",
+      "label": "clean",
+      "category": null,
+      "note": "普通，不是再普通不过"
+    },
+    {
+      "id": "h50",
+      "text": "他的手指像在把邮戳上的油墨一格格擦净，又像是在核对照片背面褪色的号码。",
+      "label": "clean",
+      "category": null,
+      "note": "长比喻两边都具体"
+    },
+    {
+      "id": "h51",
+      "text": "先把煤油灯点上。旧报纸还是干的。",
+      "label": "clean",
+      "category": null,
+      "note": "寻常动作"
+    },
+    {
+      "id": "h52",
+      "text": "他不是在报门牌，而是把铃绳松开。",
+      "label": "unjudgeable",
+      "category": "template",
+      "note": "人工拿不准"
+    }
+  ]
+}

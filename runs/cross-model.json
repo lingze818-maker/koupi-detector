@@ -1,0 +1,20 @@
+{
+  "temperature": 0,
+  "rows": [
+    {
+      "id": "deepseek",
+      "label": "DeepSeek",
+      "model": "deepseek-chat",
+      "status": "ran",
+      "temperature": 0,
+      "chars": 158,
+      "ticCount": 0,
+      "ticPerKilo": 0,
+      "byCategory": {
+        "template": 0,
+        "emotion-flat": 0,
+        "metaphor": 0
+      }
+    }
+  ]
+}

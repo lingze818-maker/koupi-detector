@@ -1,0 +1,1218 @@
+{
+  "version": 1,
+  "description": "虚构评测句。label 是人工判断：tic 口癖，clean 非口癖，unjudgeable 人工也拿不准。没有真实对话，没有个人信息。",
+  "items": [
+    {
+      "id": "g01",
+      "text": "他没有生气，也没有惊讶，只是看着她。",
+      "label": "tic",
+      "category": "template",
+      "note": "两个情绪词加三段否定"
+    },
+    {
+      "id": "g02",
+      "text": "没有停顿也没有犹豫只是把杯子放下。",
+      "label": "tic",
+      "category": "template",
+      "note": "没有逗号的变体"
+    },
+    {
+      "id": "g03",
+      "text": "那不是责备，也不是安慰，而是把话放平。",
+      "label": "tic",
+      "category": "template",
+      "note": "不是……也不是……而是"
+    },
+    {
+      "id": "g04",
+      "text": "并不是催促，而是把账本合上。",
+      "label": "tic",
+      "category": "template",
+      "note": "并不是……而是"
+    },
+    {
+      "id": "g05",
+      "text": "没有方才那种懒洋洋的调侃，而是把声音放平。",
+      "label": "tic",
+      "category": "template",
+      "note": "没有……而是"
+    },
+    {
+      "id": "g06",
+      "text": "像在陈述事实，又像是在念一份结论。",
+      "label": "tic",
+      "category": "template",
+      "note": "两边都是陈述套话"
+    },
+    {
+      "id": "g07",
+      "text": "他语气平淡，听不出什么情绪。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "情绪抹平"
+    },
+    {
+      "id": "g08",
+      "text": "表情平静而松弛，像在做一件再寻常不过的事。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "比喻套话"
+    },
+    {
+      "id": "g09",
+      "text": "不是责备。而是把话放平。",
+      "label": "tic",
+      "category": "template",
+      "note": "句号隔开的不是……而是，同一轮内应检出。最短改写是「是把话放平」"
+    },
+    {
+      "id": "g10",
+      "text": "不是催促，也不是前年的那册账，而是把页码对齐。",
+      "label": "tic",
+      "category": "template",
+      "note": "人工仍觉得别扭，但槽位一虚一实，系统应标不可判定"
+    },
+    {
+      "id": "g11",
+      "text": "这不是红茶，而是去年剩下的那罐乌龙。",
+      "before": "灯还亮着。伞放在门口。",
+      "label": "tic",
+      "category": "template",
+      "note": "绕路否定：前文没人提过红茶"
+    },
+    {
+      "id": "g12",
+      "text": "钥匙不是在抽屉里，而是在玄关的铁盒里。",
+      "before": "闭馆的铃还有一刻。",
+      "label": "tic",
+      "category": "template",
+      "note": "绕路否定：前文没人提过抽屉"
+    },
+    {
+      "id": "g13",
+      "text": "不是茶，也不是酒，而是白开水。",
+      "before": "他把杯子放下。",
+      "label": "tic",
+      "category": "template",
+      "note": "绕路否定：茶和酒都没人提过。省力的说法是「这是杯白水」"
+    },
+    {
+      "id": "g14",
+      "text": "没有茶叶，也没有杯子，只是一壶白开水。",
+      "before": "灯在桌上。",
+      "label": "tic",
+      "category": "template",
+      "note": "绕路否定：茶叶和杯子都没人提过"
+    },
+    {
+      "id": "g15",
+      "text": "他不是周一来的，而是周三凌晨到的。",
+      "before": "页脚有水印。",
+      "label": "tic",
+      "category": "template",
+      "note": "绕路否定：前文没人提过周一"
+    },
+    {
+      "id": "g16",
+      "text": "这茶味道平淡，可是耐泡。",
+      "label": "clean",
+      "category": null,
+      "note": "平淡形容茶，不是语气"
+    },
+    {
+      "id": "g17",
+      "text": "他声音低沉，把闭馆的时间又说了一遍。",
+      "label": "clean",
+      "category": null,
+      "note": "单独的声音低沉不当成口癖"
+    },
+    {
+      "id": "g18",
+      "text": "今天天气不错，伞可以收起来。",
+      "label": "clean",
+      "category": null,
+      "note": "真的在说天气"
+    },
+    {
+      "id": "g19",
+      "text": "他的声音像在回忆整条巷子里的夜雨，又像是在核对门牌上褪色的数字。",
+      "label": "clean",
+      "category": null,
+      "note": "长比喻两边都具体，应抑制"
+    },
+    {
+      "id": "g20",
+      "text": "像在走路，又像是在跳舞。",
+      "label": "clean",
+      "category": null,
+      "note": "短排比，人工不认为是套话；系统应不可判定，而不是判成口癖"
+    },
+    {
+      "id": "g21",
+      "text": "他不是在解释，而是把那句话说完。",
+      "label": "unjudgeable",
+      "category": "template",
+      "note": "人工拿不准。这条不进三项比率。"
+    },
+    {
+      "id": "g22",
+      "text": "不是茶，也不是酒，而是白开水。",
+      "label": "tic",
+      "category": "template",
+      "note": "单句没有前文，系统应标不可判定"
+    },
+    {
+      "id": "g23",
+      "text": "这不是茶，而是白水。",
+      "before": "林夏问：这是茶吗？",
+      "label": "clean",
+      "category": null,
+      "note": "对方问过茶，真实纠正，应放行，冗余比不计入"
+    },
+    {
+      "id": "g24",
+      "text": "没有糖，也没有牛奶，只是白水。",
+      "before": "灯还亮着。",
+      "label": "tic",
+      "category": "template",
+      "note": "前文没提糖和牛奶。绕路否定，冗余比应计入；最短改写是「只是白水」"
+    },
+    {
+      "id": "g25",
+      "text": "没有糖，也没有牛奶，只是白水。",
+      "before": "林夏问：糖和牛奶都没有吗？",
+      "label": "clean",
+      "category": null,
+      "note": "糖和牛奶都在前文出现。真实回答，应放行，冗余比不计入"
+    },
+    {
+      "id": "g26",
+      "text": "没有生气。也没有惊讶。只是看着她。",
+      "label": "tic",
+      "category": "template",
+      "note": "两处句号，同一轮里的没有…也没有…只是。最短改写是「只是看着她」"
+    },
+    {
+      "id": "g27",
+      "text": "不是茶。也不是酒。而是白开水。",
+      "before": "他把杯子放下。",
+      "label": "tic",
+      "category": "template",
+      "note": "两处句号的绕路否定。最短改写是「是白开水」"
+    },
+    {
+      "id": "g28",
+      "text": "没有茶叶。\n只是一壶白开水。",
+      "before": "灯在桌上。",
+      "label": "tic",
+      "category": "template",
+      "note": "同一轮里的换行。最短改写是「只是一壶白开水」"
+    },
+    {
+      "id": "g29",
+      "text": "不是催促……而是把账本合上。",
+      "label": "tic",
+      "category": "template",
+      "note": "省略号算一个句界。最短改写是「是把账本合上」"
+    },
+    {
+      "id": "g30",
+      "text": "他把杯子放下。而是灯还亮着。",
+      "label": "clean",
+      "category": null,
+      "note": "而是另起一句，前面没有不是或没有，不是转折的后半"
+    },
+    {
+      "id": "g31",
+      "text": "今天天气不错。只是伞可以收起来。",
+      "label": "clean",
+      "category": null,
+      "note": "只是另起一句，前面没有「没有…」，不是只是的后半"
+    },
+    {
+      "id": "g32",
+      "text": "钥匙不是在抽屉里。灯还亮着。而是在铁盒里。",
+      "label": "clean",
+      "category": null,
+      "note": "中间隔了一整句。接不接得上拿不准，应不可判定，不要判成口癖"
+    },
+    {
+      "id": "g33",
+      "text": "不是责备。也不是安慰。他倒了杯水。而是把话放平。",
+      "label": "clean",
+      "category": null,
+      "note": "从后一个「不是」到「而是」中间隔了一整句，应不可判定"
+    },
+    {
+      "id": "g34",
+      "text": "他把伞靠在门边，语气平淡。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "语气被写成平淡"
+    },
+    {
+      "id": "g35",
+      "text": "闭馆的铃还没响，声音很平淡。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "声音很平淡"
+    },
+    {
+      "id": "g36",
+      "text": "他说完闭馆的时间，声音低沉平缓。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "声音低沉后再接平缓"
+    },
+    {
+      "id": "g37",
+      "text": "语调平缓，账本却还摊着。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "语调平缓"
+    },
+    {
+      "id": "g38",
+      "text": "声音仍然平稳，铁盒就在手边。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "声音仍然平稳"
+    },
+    {
+      "id": "g39",
+      "text": "听不出什么情绪，只把页码对齐。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "听不出什么情绪"
+    },
+    {
+      "id": "g40",
+      "text": "听不出半分起伏。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "听不出起伏"
+    },
+    {
+      "id": "g41",
+      "text": "听不出一丝波澜，灯还亮着。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "听不出波澜"
+    },
+    {
+      "id": "g42",
+      "text": "没有多余的情绪，他把杯子放下。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "没有多余的情绪"
+    },
+    {
+      "id": "g43",
+      "text": "没有什么多余的情绪。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "没有什么多余的情绪"
+    },
+    {
+      "id": "g44",
+      "text": "声调不高不低，只把空账本合上。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "声调不高不低"
+    },
+    {
+      "id": "g45",
+      "text": "声音恢复了往常的温和周正。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "声音恢复成往常的套话"
+    },
+    {
+      "id": "g46",
+      "text": "眉眼的弧度显得温和又疏淡。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "温和又疏淡"
+    },
+    {
+      "id": "g47",
+      "text": "他的语气还是那种不紧不慢的调子。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "不紧不慢的调子"
+    },
+    {
+      "id": "g48",
+      "text": "语气随意得，把伞又往门边挪了挪。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "语气随意得"
+    },
+    {
+      "id": "g49",
+      "text": "带着一种少见的、平直的陈述语气。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "平直的陈述语气"
+    },
+    {
+      "id": "g50",
+      "text": "表情平静而松弛，钥匙放在铁盒上。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "表情平静而松弛"
+    },
+    {
+      "id": "g51",
+      "text": "表情专注而平静。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "表情专注而平静"
+    },
+    {
+      "id": "g52",
+      "text": "表情平静而疏淡。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "表情平静而疏淡"
+    },
+    {
+      "id": "g53",
+      "text": "听不出什么特别的情绪。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "听不出特别的情绪"
+    },
+    {
+      "id": "g54",
+      "text": "却听不出什么多余的情绪。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "听不出多余的情绪"
+    },
+    {
+      "id": "g55",
+      "text": "嗓音平直，闭馆的手续一页页过去。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "嗓音平直"
+    },
+    {
+      "id": "g56",
+      "text": "语气依旧平淡。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "语气依旧平淡"
+    },
+    {
+      "id": "g57",
+      "text": "声音平静，雨还在伞上。",
+      "label": "tic",
+      "category": "emotion-flat",
+      "note": "声音平静"
+    },
+    {
+      "id": "g58",
+      "text": "他说闭馆，像在陈述一个事实。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "像在陈述事实"
+    },
+    {
+      "id": "g59",
+      "text": "像是在陈述天气，伞却还滴水。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "像是在陈述天气"
+    },
+    {
+      "id": "g60",
+      "text": "像在说今天的天气。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "像在说今天的天气"
+    },
+    {
+      "id": "g61",
+      "text": "闭馆这件事，他说得就像谈论天气。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "谈论天气"
+    },
+    {
+      "id": "g62",
+      "text": "动作自然而随意，像刚才什么也没发生过一样。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "像刚才什么也没发生过"
+    },
+    {
+      "id": "g63",
+      "text": "仿佛刚才什么也没发生，灯还亮着。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "仿佛刚才什么也没发生"
+    },
+    {
+      "id": "g64",
+      "text": "把铁盒盖上，再寻常不过。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "再寻常不过"
+    },
+    {
+      "id": "g65",
+      "text": "再平常不过的事实，他只报了闭馆时间。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "再平常不过"
+    },
+    {
+      "id": "g66",
+      "text": "这手续再普通不过。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "再普通不过"
+    },
+    {
+      "id": "g67",
+      "text": "像在陈述一件理所当然的事。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "理所当然的事"
+    },
+    {
+      "id": "g68",
+      "text": "他提起页码，像是在点评什么无关紧要的细节。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "无关紧要的细节"
+    },
+    {
+      "id": "g69",
+      "text": "无关紧要的事实，写在页脚。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "无关紧要的事实"
+    },
+    {
+      "id": "g70",
+      "text": "他把日期说成一个不容商榷的事实。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "不容商榷的事实"
+    },
+    {
+      "id": "g71",
+      "text": "像在陈述天气预报。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "陈述天气预报"
+    },
+    {
+      "id": "g72",
+      "text": "仿佛只是说了一句“今日天色不错”。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "今日天色不错"
+    },
+    {
+      "id": "g73",
+      "text": "声音放轻，像是怕惊到什么似的。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "像是怕惊到"
+    },
+    {
+      "id": "g74",
+      "text": "像是在陈述一个已经到站的事实。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "已经到站的事实"
+    },
+    {
+      "id": "g75",
+      "text": "像是评价，把账本合上。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "像是评价"
+    },
+    {
+      "id": "g76",
+      "text": "像在点评这盏灯。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "像在点评"
+    },
+    {
+      "id": "g77",
+      "text": "这页他读得就像念书。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "就像念书"
+    },
+    {
+      "id": "g78",
+      "text": "像是在念书，页码却没对上。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "像是在念书"
+    },
+    {
+      "id": "g79",
+      "text": "就像在说一件和自己无关的事。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "和自己无关的事"
+    },
+    {
+      "id": "g80",
+      "text": "像在做一件需要精确操作的工作，其实只是把灯芯拨正。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "需要精确操作的工作"
+    },
+    {
+      "id": "g81",
+      "text": "仿佛在说天气预报，伞还靠在门边。",
+      "label": "tic",
+      "category": "metaphor",
+      "note": "仿佛在说天气预报"
+    },
+    {
+      "id": "g82",
+      "text": "没有笑意，也没有怒意，只是把伞收好。",
+      "label": "tic",
+      "category": "template",
+      "note": "两个情绪槽加只是"
+    },
+    {
+      "id": "g83",
+      "text": "并非质问，而是把灯拧暗。",
+      "label": "tic",
+      "category": "template",
+      "note": "并非……而是，槽位是言语行为",
+      "before": "灯还亮着。"
+    },
+    {
+      "id": "g84",
+      "text": "不是墨，也不是纸，而是一把旧伞。",
+      "label": "tic",
+      "category": "template",
+      "note": "绕路否定：前文没提墨和纸",
+      "before": "闭馆的铃响了。"
+    },
+    {
+      "id": "g85",
+      "text": "没有抽屉。只是铁盒。",
+      "label": "tic",
+      "category": "template",
+      "note": "一个句号隔开的没有……只是",
+      "before": "页脚有水印。"
+    },
+    {
+      "id": "g86",
+      "text": "不是催促。也不是解释。而是把页码对齐。",
+      "label": "tic",
+      "category": "template",
+      "note": "两个句号，槽位都是言语行为"
+    },
+    {
+      "id": "g87",
+      "text": "并没有停顿，只是把杯子放下。",
+      "label": "tic",
+      "category": "template",
+      "note": "并没有……只是"
+    },
+    {
+      "id": "g88",
+      "text": "没有调侃，也没有笑意。",
+      "label": "tic",
+      "category": "template",
+      "note": "没有……也没有，没有后半断言"
+    },
+    {
+      "id": "g89",
+      "text": "却不是安慰，而是把声音放平。",
+      "label": "tic",
+      "category": "template",
+      "note": "却不是……而是"
+    },
+    {
+      "id": "g90",
+      "text": "像在播报，又像是在下结论。",
+      "label": "tic",
+      "category": "template",
+      "note": "两边都是套话比喻"
+    },
+    {
+      "id": "g91",
+      "text": "没有犹豫！只是把铁盒推过去。",
+      "label": "tic",
+      "category": "template",
+      "note": "叹号也算一个句界"
+    },
+    {
+      "id": "g92",
+      "text": "不是墨，而是去年剩下的那锭。",
+      "label": "tic",
+      "category": "template",
+      "note": "具体选项，单句没有前文，应不可判定"
+    },
+    {
+      "id": "g93",
+      "text": "不是周一，也不是周三，而是闭馆那天。",
+      "label": "tic",
+      "category": "template",
+      "note": "具体日期，没有前文，应不可判定"
+    },
+    {
+      "id": "g94",
+      "text": "不是催促，也不是前年的那盏灯，而是把伞拿进来。",
+      "label": "tic",
+      "category": "template",
+      "note": "一虚一实，应不可判定"
+    },
+    {
+      "id": "g95",
+      "text": "钥匙不是在铁盒里。灯还亮着吗？而是在抽屉里。",
+      "label": "tic",
+      "category": "template",
+      "note": "中间隔了一整句，应不可判定，不算检出"
+    },
+    {
+      "id": "g96",
+      "text": "没有糖。也没有牛奶。他走到窗边。只是白水。",
+      "label": "tic",
+      "category": "template",
+      "note": "前半能接上，但没有前文；只是隔得太远。应不可判定"
+    },
+    {
+      "id": "g97",
+      "text": "这不是墨，而是水。",
+      "label": "clean",
+      "category": null,
+      "note": "前文问过墨，真实纠正",
+      "before": "林夏问这是墨吗？"
+    },
+    {
+      "id": "g98",
+      "text": "钥匙不是在铁盒里，而是在抽屉里。",
+      "label": "clean",
+      "category": null,
+      "note": "前文问过铁盒",
+      "before": "你是说铁盒吗？"
+    },
+    {
+      "id": "g99",
+      "text": "不是红茶，而是白水。",
+      "label": "clean",
+      "category": null,
+      "note": "前文问过红茶",
+      "before": "红茶是不是过期了？"
+    },
+    {
+      "id": "g100",
+      "text": "没有糖，只是盐。",
+      "label": "clean",
+      "category": null,
+      "note": "前文问过糖",
+      "before": "糖还要吗？"
+    },
+    {
+      "id": "g101",
+      "text": "他不是周一来的，而是周五来的。",
+      "label": "clean",
+      "category": null,
+      "note": "前文问过周一",
+      "before": "周一的记录在吗？"
+    },
+    {
+      "id": "g102",
+      "text": "没有伞，也没有灯，只是账本。",
+      "label": "clean",
+      "category": null,
+      "note": "伞和灯都在前文出现",
+      "before": "伞和灯都收了吗？"
+    },
+    {
+      "id": "g103",
+      "text": "不是巷子，而是图书馆后门。",
+      "label": "clean",
+      "category": null,
+      "note": "前文问过巷子",
+      "before": "巷子里还有人吗？"
+    },
+    {
+      "id": "g104",
+      "text": "没有茶叶。也没有杯子。只是热水。",
+      "label": "clean",
+      "category": null,
+      "note": "跨两个句号，但茶叶和杯子前文都提过",
+      "before": "茶叶和杯子在左边。"
+    },
+    {
+      "id": "g105",
+      "text": "并非旧账，而是今年的页码。",
+      "label": "clean",
+      "category": null,
+      "note": "前文问过旧账",
+      "before": "旧账还在吗？"
+    },
+    {
+      "id": "g106",
+      "text": "不是酒，而是白开水。",
+      "label": "clean",
+      "category": null,
+      "note": "前文问过酒",
+      "before": "酒要温一下吗？"
+    },
+    {
+      "id": "g107",
+      "text": "没有牛奶，只是白水。",
+      "label": "clean",
+      "category": null,
+      "note": "前文说过牛奶",
+      "before": "牛奶喝完了。"
+    },
+    {
+      "id": "g108",
+      "text": "不是抽屉里的那把，而是铁盒里的。",
+      "label": "clean",
+      "category": null,
+      "note": "前文问过抽屉里那把",
+      "before": "抽屉里那把还在吗？"
+    },
+    {
+      "id": "g109",
+      "text": "他把伞收好。而是灯还亮着。",
+      "label": "clean",
+      "category": null,
+      "note": "而是另起一句，前面没有不是或没有"
+    },
+    {
+      "id": "g110",
+      "text": "账本合上了。只是雨还在下。",
+      "label": "clean",
+      "category": null,
+      "note": "只是另起一句，表示只不过"
+    },
+    {
+      "id": "g111",
+      "text": "闭馆的铃响了。而是铁盒没锁。",
+      "label": "clean",
+      "category": null,
+      "note": "而是不是转折后半"
+    },
+    {
+      "id": "g112",
+      "text": "今天页码对齐了。只是墨有点淡。",
+      "label": "clean",
+      "category": null,
+      "note": "只是是补充，不是没有……只是"
+    },
+    {
+      "id": "g113",
+      "text": "林夏问了一句。而是周衡没抬头。",
+      "label": "clean",
+      "category": null,
+      "note": "而是另起一句"
+    },
+    {
+      "id": "g114",
+      "text": "伞在门口。只是地上有水。",
+      "label": "clean",
+      "category": null,
+      "note": "只是另起一句"
+    },
+    {
+      "id": "g115",
+      "text": "而是把话放平。",
+      "label": "clean",
+      "category": null,
+      "note": "跨轮：不是责备在上一轮，这一轮只有后半",
+      "before": "不是责备。"
+    },
+    {
+      "id": "g116",
+      "text": "只是看着她。",
+      "label": "clean",
+      "category": null,
+      "note": "跨轮：前半在上一轮",
+      "before": "没有生气，也没有惊讶。"
+    },
+    {
+      "id": "g117",
+      "text": "而是白开水。",
+      "label": "clean",
+      "category": null,
+      "note": "跨轮：不是茶也不是酒在上一轮",
+      "before": "不是茶，也不是酒。"
+    },
+    {
+      "id": "g118",
+      "text": "只是一壶白水。",
+      "label": "clean",
+      "category": null,
+      "note": "跨轮：没有糖也没有牛奶在上一轮",
+      "before": "没有糖，也没有牛奶。"
+    },
+    {
+      "id": "g119",
+      "text": "而是在铁盒里。",
+      "label": "clean",
+      "category": null,
+      "note": "跨轮：前半在上一轮",
+      "before": "钥匙不是在抽屉里。"
+    },
+    {
+      "id": "g120",
+      "text": "而是把账本合上。",
+      "label": "clean",
+      "category": null,
+      "note": "跨轮：并不是催促在上一轮",
+      "before": "并不是催促。"
+    },
+    {
+      "id": "g121",
+      "text": "不是墨。他洗了手。而是水。",
+      "label": "clean",
+      "category": null,
+      "note": "中间隔了一整句，应不可判定，不要判成口癖"
+    },
+    {
+      "id": "g122",
+      "text": "不是责备他。灯还亮着。他倒了杯水。而是把话放平。",
+      "label": "clean",
+      "category": null,
+      "note": "三段式中间多了两句"
+    },
+    {
+      "id": "g123",
+      "text": "没有生气。窗外有雨。也没有惊讶。",
+      "label": "clean",
+      "category": null,
+      "note": "也没有前面隔了一整句，应不可判定，不要判成口癖"
+    },
+    {
+      "id": "g124",
+      "text": "不是茶？他看了看杯子。而是白开水。",
+      "label": "clean",
+      "category": null,
+      "note": "问号后再隔一整句，应不可判定，不要判成口癖"
+    },
+    {
+      "id": "g125",
+      "text": "这碗汤味道平淡，可是还热着。",
+      "label": "clean",
+      "category": null,
+      "note": "平淡形容汤，不是语气"
+    },
+    {
+      "id": "g126",
+      "text": "湖面平静，灯倒映在里面。",
+      "label": "clean",
+      "category": null,
+      "note": "平静形容湖面"
+    },
+    {
+      "id": "g127",
+      "text": "纸页很平，字却淡了。",
+      "label": "clean",
+      "category": null,
+      "note": "在说纸页，不是语气平淡"
+    },
+    {
+      "id": "g128",
+      "text": "他语气很急，伞都没放下。",
+      "label": "clean",
+      "category": null,
+      "note": "语气急，不是平淡"
+    },
+    {
+      "id": "g129",
+      "text": "听得出高兴，灯一下全亮了。",
+      "label": "clean",
+      "category": null,
+      "note": "听得出，不是听不出"
+    },
+    {
+      "id": "g130",
+      "text": "没有多余的杯子，铁盒里只剩一把钥匙。",
+      "label": "clean",
+      "category": null,
+      "note": "多余的杯子，不是多余的情绪"
+    },
+    {
+      "id": "g131",
+      "text": "声调不高，他把铁盒推过来。",
+      "label": "clean",
+      "category": null,
+      "note": "只有不高，不是不高不低"
+    },
+    {
+      "id": "g132",
+      "text": "他不紧不慢地走去关门。",
+      "label": "clean",
+      "category": null,
+      "note": "不紧不慢地走路，不是那种调子"
+    },
+    {
+      "id": "g133",
+      "text": "表情平静，把灯拧亮。",
+      "label": "clean",
+      "category": null,
+      "note": "只有表情平静，没有后面的套话"
+    },
+    {
+      "id": "g134",
+      "text": "声音恢复了，他把账本合上。",
+      "label": "clean",
+      "category": null,
+      "note": "声音恢复了，但没有接往常的平稳"
+    },
+    {
+      "id": "g135",
+      "text": "温和地把伞递过去，地上还有水。",
+      "label": "clean",
+      "category": null,
+      "note": "温和地递伞，不是温和又疏淡"
+    },
+    {
+      "id": "g136",
+      "text": "雨后的巷子很平静。",
+      "label": "clean",
+      "category": null,
+      "note": "平静形容巷子"
+    },
+    {
+      "id": "g137",
+      "text": "今天天色不错，伞可以收起来。",
+      "label": "clean",
+      "category": null,
+      "note": "今天天色不错，不是「今日天色不错」那句套话"
+    },
+    {
+      "id": "g138",
+      "text": "他怕惊到架上的灰，把灯拧小。",
+      "label": "clean",
+      "category": null,
+      "note": "怕惊到灰，没有「像是怕惊到」"
+    },
+    {
+      "id": "g139",
+      "text": "这事跟闭馆有关，页脚写着日期。",
+      "label": "clean",
+      "category": null,
+      "note": "跟闭馆有关，不是和自己无关的事"
+    },
+    {
+      "id": "g140",
+      "text": "精确地把页码对齐。",
+      "label": "clean",
+      "category": null,
+      "note": "精确地对齐，不是需要精确操作的工作"
+    },
+    {
+      "id": "g141",
+      "text": "他的手像在沿着账本的折痕一寸寸抚平，又像是在数那些被水浸过的页码。",
+      "label": "clean",
+      "category": null,
+      "note": "长比喻两边都具体，应放行"
+    },
+    {
+      "id": "g142",
+      "text": "像在把伞骨上的雨水一滴滴抖干净，又像是在把收拢的骨架按回原位。",
+      "label": "clean",
+      "category": null,
+      "note": "长比喻两边都是动作，应放行"
+    },
+    {
+      "id": "g143",
+      "text": "普通的铁盒，没有花纹。",
+      "label": "clean",
+      "category": null,
+      "note": "普通，不是再普通不过"
+    },
+    {
+      "id": "g144",
+      "text": "他在念闭馆的名单，一页一页。",
+      "label": "clean",
+      "category": null,
+      "note": "在念名单，不是像在念书"
+    },
+    {
+      "id": "g145",
+      "text": "先把灯点上。账本还摊着。",
+      "label": "clean",
+      "category": null,
+      "note": "寻常动作，没有口癖句式"
+    },
+    {
+      "id": "g146",
+      "text": "闭馆还有一刻，铁盒在手边。",
+      "label": "clean",
+      "category": null,
+      "note": "在报时间"
+    },
+    {
+      "id": "g147",
+      "text": "林夏把伞放在门口。",
+      "label": "clean",
+      "category": null,
+      "note": "一句动作"
+    },
+    {
+      "id": "g148",
+      "text": "他不是在解释那页账，而是把灯拧亮。",
+      "label": "unjudgeable",
+      "category": "template",
+      "note": "人工拿不准这句算不算口癖"
+    },
+    {
+      "id": "g149",
+      "text": "声音不高不低，只把日期读了一遍。",
+      "label": "unjudgeable",
+      "category": "emotion-flat",
+      "note": "人工拿不准算不算声调套话"
+    },
+    {
+      "id": "g150",
+      "text": "像在把一件很小的事说完。",
+      "label": "unjudgeable",
+      "category": "metaphor",
+      "note": "人工拿不准算不算比喻套话"
+    },
+    {
+      "id": "g151",
+      "text": "他不是从侧廊过来的，而是从正门进来的。",
+      "label": "clean",
+      "category": null,
+      "note": "前文问过侧廊。否定槽以「从」开头，仍应放行",
+      "before": "侧廊有风吗？"
+    },
+    {
+      "id": "g152",
+      "text": "不是对旧账，而是对新页。",
+      "label": "clean",
+      "category": null,
+      "note": "前文问过旧账。否定槽以「对」开头，仍应放行",
+      "before": "旧账还在架子上吗？"
+    },
+    {
+      "id": "g153",
+      "text": "不是往西厢去的，而是往正厅去的。",
+      "label": "clean",
+      "category": null,
+      "note": "前文问过西厢。否定槽以「往」开头，仍应放行",
+      "before": "西厢锁了吗？"
+    },
+    {
+      "id": "g154",
+      "text": "不是被夜风吹开的，而是被手推开的。",
+      "label": "clean",
+      "category": null,
+      "note": "前文问过夜风。否定槽以「被」开头，仍应放行",
+      "before": "夜风是从窗缝进来的吗？"
+    },
+    {
+      "id": "g155",
+      "text": "不是为闭馆，而是为盘点。",
+      "label": "clean",
+      "category": null,
+      "note": "前文问过闭馆。否定槽以「为」开头，仍应放行",
+      "before": "闭馆的钟点改了吗？"
+    },
+    {
+      "id": "g156",
+      "text": "不是给林夏的那封，而是给周衡的。",
+      "label": "clean",
+      "category": null,
+      "note": "前文问过林夏。否定槽以「给」开头，仍应放行",
+      "before": "林夏的那封放好了吗？"
+    },
+    {
+      "id": "g157",
+      "text": "他不是从侧廊过来的，而是从正门进来的。",
+      "label": "tic",
+      "category": "template",
+      "note": "前文没提侧廊。从侧廊过来是绕路否定",
+      "before": "灯还亮着。"
+    },
+    {
+      "id": "g158",
+      "text": "不是对旧账，而是对新页。",
+      "label": "tic",
+      "category": "template",
+      "note": "前文没提旧账。对旧账是绕路否定",
+      "before": "伞在门口。"
+    },
+    {
+      "id": "g159",
+      "text": "不是被夜风吹开的，而是被手推开的。",
+      "label": "tic",
+      "category": "template",
+      "note": "前文没提夜风。被夜风吹开是绕路否定",
+      "before": "页码对齐了。"
+    },
+    {
+      "id": "g160",
+      "text": "不是为闭馆，而是为盘点。",
+      "label": "tic",
+      "category": "template",
+      "note": "前文没提闭馆。为闭馆是绕路否定",
+      "before": "伞收好了。"
+    },
+    {
+      "id": "g161",
+      "text": "他不是从侧廊过来的，而是从正门进来的。",
+      "label": "tic",
+      "category": "template",
+      "note": "具体选项，没有前文，应不可判定"
+    },
+    {
+      "id": "g162",
+      "text": "不是责备。他放下杯子。而是把话放平。",
+      "label": "tic",
+      "category": "template",
+      "note": "言语行为的两段式中间隔了一整句，应不可判定，不要直接判成口癖"
+    },
+    {
+      "id": "g163",
+      "text": "他把伞收好。灯灭了。而是铁盒没锁。",
+      "label": "clean",
+      "category": null,
+      "note": "而是另起一句，前面没有不是或没有"
+    },
+    {
+      "id": "g164",
+      "text": "不是墨。他洗了手。灯灭了。而是水。",
+      "label": "clean",
+      "category": null,
+      "note": "隔了两句，超过一个无关句，应判非口癖"
+    },
+    {
+      "id": "g165",
+      "text": "不是墨。他洗了手。而是水。",
+      "label": "clean",
+      "category": null,
+      "note": "隔了一句，但前文提过墨，应放行",
+      "before": "墨用完了吗？"
+    },
+    {
+      "id": "g166",
+      "text": "不是墨。他洗了手。而是水。",
+      "label": "tic",
+      "category": "template",
+      "note": "隔了一句，前文没提墨，应不可判定而不是判成口癖",
+      "before": "灯还亮着。"
+    },
+    {
+      "id": "g167",
+      "text": "今天页码对齐了。他合上账本。只是墨有点淡。",
+      "label": "clean",
+      "category": null,
+      "note": "只是另起一句，中间还有一句，不应接上"
+    }
+  ]
+}

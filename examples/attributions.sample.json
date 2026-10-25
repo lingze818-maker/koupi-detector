@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "match": {
+        "ruleId": "tpl.mei-you-ye-mei-you-zhi-shi",
+        "text": "没有生气，也没有惊讶，只是看着她"
+      },
+      "attribution": "training-data",
+      "note": "虚构标注：这句话在好几个版本里几乎原样出现，更像训练分布，不是这张角色卡写出来的。"
+    }
+  ]
+}
